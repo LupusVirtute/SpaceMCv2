@@ -1,0 +1,63 @@
+@import 'values.sass'
+header
+	background: $background-nav
+	transition: width 1s ease-in-out
+	transition-delay: 500ms
+	width: 3em
+	position: fixed
+	height: 100%
+	z-index: 1
+	font-family: 'Orbitron'
+	overflow-x: hidden
+	box-shadow: 4px 4px 20px #00f
+	font-size: calc(12px + 1vh)
+	.fa
+		margin-left: 1em
+		display: inline-block
+		text-align: center
+		margin-right: 1em
+		transform: translateY(-.25em)
+	.fa-rocket
+		color: $font-color
+		width: 1em
+		margin-left: 0.7em
+
+	h1
+		white-space: nowrap
+		margin-top: 7em
+		span
+			transition: all 1s
+			width: 0
+			display: inline-block
+			overflow: hidden
+		font-family: 'Orbitron'
+		padding: 0 1em 3em 0em
+		font-size: 1.2em
+		letter-spacing: .4em
+		width: 20em
+		text-align: left
+	&:hover
+		width: 15em
+		// border-radius: 0 50% 50% 0
+		height: 100%
+		span
+			width: 15em
+			transition-delay: 1.5s
+
+nav
+	color: $font-color
+	display: flex
+	flex-direction: column
+	justify-content: center
+	text-align: center
+	li
+		width: 20em
+		margin-top: 2em
+		list-style: none
+		span
+			word-break: keep-all
+			white-space: nowrap
+			text-align: left
+			display: inline-block
+			width: 0
+			overflow: hidden
