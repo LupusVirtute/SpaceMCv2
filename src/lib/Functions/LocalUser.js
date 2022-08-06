@@ -78,7 +78,12 @@ export async function isSessionActive(){
 	return response === "true";
 }
 
-
+export async function addUserInfo(field, value) {
+	let user = await getUserInfo()
+	user[field] += value
+	let json = await JSON.stringify(user)
+	window.localStorage.setItem('userInfo',json)
+}
 
 // --- Panel Methods ---
 

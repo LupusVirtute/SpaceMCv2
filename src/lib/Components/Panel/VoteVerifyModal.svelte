@@ -4,6 +4,7 @@
 	import site from '$config/site';
 	import BigBlackSpinner from '../BigBlackSpinner.svelte';
 	import Message from '$lib/Functions/Message'
+import { addUserInfo } from '$lib/Functions/LocalUser';
 
 	export let visible;
 	let msg = "ERROR";
@@ -18,6 +19,8 @@
 		const data = await response.text();
 		const responseCode = await response.status;
 		msg = Message[data]
+		if(data == "GOOD_VOTE")
+			addUserInfo("points", 10)
 	}
 	let votePromise = verifyVote();
 </script>
@@ -26,7 +29,7 @@
 <BigBlackSpinner/>
 {:then}
 <h1>
-	{msg}
+	{@html msg}
 </h1>
 {/await}
 </Modal>

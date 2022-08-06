@@ -49,6 +49,10 @@
 		invited = true;
 	}
 	$: voteVerify = false;
+	
+	function redirectToShop() {
+		window.location.href = site.url+'/pointshop';
+	}
 </script>
 {#if voteVerify}
 	<VoteVerifyModal bind:visible={voteVerify}/>
@@ -84,14 +88,14 @@
 						<button on:click="{sendLoginRequest}">
 							Zaloguj na serwerze
 						</button>
-						<button on:click="{()=>voteVerify = true}">
-							Glosuj
-						</button>
 						<button on:click={stats}>
 							Statystyki
 						</button>
 						<button on:click={getInvitedBy}>
 							Zaprosil mnie
+						</button>
+						<button class="shop-button" on:click={redirectToShop}>
+							Sklep Tokenów
 						</button>
 					</div>
 				</section>

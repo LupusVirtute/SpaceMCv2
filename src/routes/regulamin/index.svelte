@@ -108,15 +108,27 @@
 	<br/>
 	§25. Nie dozwolone jest tworzenie maszyn do "afkowania" to jest omijanie systemu serwerowego który wyrzuca za bycie nieczynnym na serwerze.<br/>
 	<br/>
-	§25. Zakazuje się działania na nerwach lub zdrowiu psychicznym administracji<br/>
+	§26. Zakazuje się działania na nerwach lub zdrowiu psychicznym administracji<br/>
+	<br/>
+	§27. Na sklepie /ah zakazuje się totalnie wystawiać<br/>
+	<span>	1. Podrobionych / fałszywych przedmiotów które normalnie otrzymuje się od serwera / Administratora<br/></span>
+	<span>	2. Przedmiotów z nazwami:<br/></span>
+	<span>		a. Większymi od 24 znaków<br/></span>
+	<span>		b. Zawierającymi przekleństwa<br/></span>
+	<span>		c. Zawierającymi personalne dane użytkowników<br/></span>
+	<span>		d. Zawierającymi znaki inne niż polskie litery i cyfry emotikonów itp.<br/></span>
+	<span>		e. Zawierające pismo z podkreśleniem lub "matrixem" (Ciągłe zmieniające się znaki znak formatowania &k)<br/></span>
+	<span>		f. Łamiącymi polskie prawo propagującym faszyzm, komunizm, polityke, nienawiść etc.<br/></span>
+	<span>	3. Artykuł 3 paragraf 27 podpunkt 2 nie dotyczy przedmiotów wydanych przez administracje lub serwer<br/></span>
+	<br/>
 	<hr><br/>
 	<h2><br/>
 	Art 4. Czat<br/>
 	</h2><br/>
 	<br/>
-	§1. Obraza graczy / administracji / serwera / rodziny graczy lub administracji grozi mutem lub banem.<br/>
+	§1. Obraza graczy / prowokacja / administracji / serwera / rodziny graczy lub administracji grozi mutem lub banem.<br/>
 	<br/>
-	§2. Spamowanie / floodowanie na chacie / helpopie grozi mutem lub banem.<br/>
+	§2. Spamowanie / Obraza / Prowokacja / Przeklinanie / floodowanie na chacie / helpopie grozi mutem lub banem.<br/>
 	<br/>
 	§3. Reklamowanie innych serwerów / stron internetowych / filmów / treści pornograficznych grozi mutem lub banem.<br/>
 	<br/>
@@ -131,12 +143,19 @@
 	§8. Jakiekolwiek groźby skierowane w kierunku graczy/administracji mogą być karane banem.<br/>
 	<br/>
 	§9. Kłócenie się z administratorem na temat słuszności kary jest zakazane na czatach ogólnych względem tego można się zgłosić na serwer discorda według wzoru na odpowiednim kanale w celu rozpatrzenia ukarania w przeciwnym razie gdy gracz się kłóci karą jest 5 dni mute.<br/>
+	<br/>
+	§10. Zakazane jest reklamowanie kanału Youtube / Twitch i innych kanałów medii społecznościowych bez zezwolenia właściciela<br/>
+	<br/>
+	§11. Proszenie o klucze / range / itemy / op jest karane, karą mute 1h.<br/>
+	<br/>
+	§12. Przekleństwa w umiarze są dozwolone po godzinie 22 do następnego restartu serwera.<br/>
+	
 	<hr><br/>
 	<h2><br/>
 	Art 5. Taryfikator<br/>
 	</h2><br/>
 	<br/>
-	§1. Obraza / Prowokacja / Spam na czacie - Mute od 10 minut do 7 dni<br/>
+	§1. Cały Art 4 podlega systemowi warnów chyba że jest wyspecyfikowane na temat tego<br/>
 	<br/>
 	§2. Manipulacja pakietami odbiegającymi od Minecrafta (Od firmy Mojang) lub czytanie tych pakietów programami / urządzeniami (Chodzi tutaj o cheaty) - Ban od 7dni do 30 dni<br/>
 	<br/>
@@ -162,8 +181,14 @@
 	<br/>
 	§13. Art 3 §25 - Zależne od administratora który ucierpiał na wynik akcji gracza<br/>
 	<br/>
-	§14. Proszenie innego administratora o usunięcie bądź skrócenie kary, gdy posiada on niższą/te samą rangę grozi podwojeniem kary.
-
+	§14. Proszenie innego administratora o usunięcie bądź skrócenie kary, gdy posiada on niższą/te samą rangę grozi podwojeniem kary.<br/>
+	<br/>
+	§15. Kłamstwa względem administracji które utrudniają sprawdzanie mogą skutkować potrojeniem aktualnie aktywnej kary.<br/>
+	<br/>
+	§16. Art 3 §27 Jest zależne od administratora może skutkować odebraniem dostępu do serwera na minimum 7 dni maksymalnie 60 dni.<br/>
+	<br/>
+	§17. Administrator może wymierzyć karę gorszą(według uznania) jeśli gracz w przeciągu 7 dni od dostania ostatniej kary dostanie kolejną karę. <br/>
+	
 	<hr><br/>
 	<h2><br/>
 	Art 6. Zgłaszanie bugów<br/>
@@ -216,6 +241,44 @@
 	<br/>
 	§3. Apelujący nie może się wypowiadać jeśli sprawa została już rozpatrzona negatywnie lub pozytywnie przez następne 8 dni <br/><br/>
 	§4. Karany może zostać ułaskawiony za wpłacenie dotacji na serwer<br/>
+	<hr/> <br/>
+	<h2><br/>
+	<br/>
+	Art 9. Ochrona "streamerów"<br/>
+	</h2><br/>
+	<br/>
+	§1. Jest to artykuł całkowicie poświęcony osobom udostępniającym ekran swojego komputera na serwisach "streamujących" takich jak youtube twitch i tym podobne nie wliczamy w to udostępnianiu ekranu na discordzie.<br/>
+	<br/>
+	§2. Osoba udostępniająca ekran serwera nie może zakrywać logo serwera albo traci wszystkie możliwe formy ochrony zapewnione w tym artykule.<br/>
+	<br/>
+	§3. Regulamin ten dotyczy sytuacji zaistniałych tylko na serwerze SpaceMC.eu inne serwery minecraft czy discord się nie liczą<br/>
+	<br/>
+	§4. Osobom udostępniającym ekran z serwera gry minecraft SpaceMC.eu na popularnych serwisach streamingowych (to jest np. YouTube.com i Twitch.tv) przysługuje ochrona przed tzw "stream snipingiem".<br/>
+	<br/>
+	§5. Stream sniping jest definiowany jako posiadanie wiedzy który powinnien znać tylko użytkownik oglądający udostępniony ekran.<br/>
+	<br/>
+	§6. Administracja może zdecydować że użytkownik "stream snipuje" tylko i wyłącznie w momencie gdy użytkownik który ogląda udostępniony ekran ma informacje typu koordynaty typu kiedy i gdzie się znajduje użytkownik udostępniający ekran lub kiedy widać ewidentne reakcje z powodu zmiany sytuacji na udostępnionym ekranie.<br/>
+	<br/>
+	§7. Stream sniping może być karany 1-30 dniami bana (zależne od administratora) alternatywnie także streamer może się zgodzić na wybranie kary którą on może w swojej mocy wykonać pod ochroną przed zabiciem z strony napastnika przez administracje.<br/>
+	<br/>
+	§8. Poniżanie / obrażanie stream snipera na streamie może skutkować permanentnym zabraniem rangi i benefitów dla osoby udostępniającej ekran bez możliwości odwołania.<br/>
+	
+	<hr/> <br/>
+	<h2><br/>
+	<br/>
+	Art 10. Sklep<br/>
+	</h2><br/>
+	<br/>
+	§1. Sklep serwerowy jest oficjalnie na stronie https://spacemc.eu/sklep.<br/>
+	<br/>
+	§2. Każdy zakup na sklepie jest traktowany jako dotacja na serwer z benefitami.<br/>
+	<br/>
+	§3. Wykupienie usługi a następnie wycofanie płatności skutkuje permanentną blokadą na serwerze.<br/>
+	<br/>
+	§4. Opcje płatności inne nie dostępne na stronie powinno się zgłaszać do właścicieli i skonsultować się z nimi na temat danej płatności usługi i ceny.<br/>
+	<br/>
+	§5. W przypadku nie zgodności cen na sklepie i rachunku prosimy się skontaktować z firmą tebex.io nie odpowiadamy za zmianę ceny usługi na rachunku.<br/>
+	<br/>
 	
 </div>
 <style lang="sass">

@@ -6,11 +6,15 @@
 
 	}
 </script>
+{#if visible}
 <section class="wrapper" transition:fade>
 	<section class="background" on:click="{close}">
 	</section>
-	<slot/>
+	<div style="z-index: 4">
+		<slot/>
+	</div>
 </section>
+{/if}
 <style lang="sass">
 .wrapper
 	display: flex
@@ -21,7 +25,9 @@
 	position: absolute
 	z-index: 10
 	background: rgba(0,0,0,0.9)
-	margin-left: -10rem
+	top: 0
+	left: 0
+	margin-left: -1rem
 .background
 	width: 100%
 	height: 100%

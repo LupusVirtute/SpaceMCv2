@@ -12,7 +12,7 @@ import Place from './Place.svelte';
 		'deaths',
 		'ore',
 		'time',
-		'invite',
+		'invites',
 		'votes'
 	]
 	let namedTops = [
@@ -62,7 +62,7 @@ h1
 	display: flex
 	flex-direction: column
 	align-items: center
-	font-size: calc(5px + .5vw)
+	font-size: .5vw
 :global(.top)
 	:global(div)
 		border-bottom: 2px solid #0080F0

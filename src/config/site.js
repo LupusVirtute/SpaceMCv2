@@ -1,9 +1,10 @@
-let site_url = 'https://spacemc.eu'
-let site_api = site_url+"/api/"
+const site_url = 'https://spacemc.eu'
+const site_api = site_url+"/api/"
 
 export const site = {
 	"url": site_url+'',
 	"site_api": site_api,
+	"server_buy": site_api+"buy",
 	"server_login": site_api+"login",
 	"server_user": site_api+"user",
 	"server_uid": site_api+"uid/",

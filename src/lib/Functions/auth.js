@@ -4,7 +4,6 @@ import { getCookie } from '$util/cookie';
 // get jwt token
 export async function getToken(username, password,captchaKey) {
 		let url = site.server_login;
-		console.log(url);
 		let data = {
 			"username": username,
 			"password": password,
@@ -24,6 +23,7 @@ export async function getToken(username, password,captchaKey) {
 }
 
 export async function isUserLoggedIn(){
+
 	let cookie = getCookie('token');
 	if(cookie)
 		return cookie.length >= 63;

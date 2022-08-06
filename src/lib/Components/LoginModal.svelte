@@ -49,10 +49,10 @@
 			setCookie("token",sessionResponse.session)
 
 			logged = true
-			window.setTimeout(() => {
-				close()
-			}, 1000);
 		}
+		window.setTimeout(() => {
+			close()
+		}, 1000);
 	}
 	function close() {
 		visible = false;
@@ -108,6 +108,11 @@
 			{:then}
 				<section class="logged-on">
 					Zalogowano pomyślnie!	
+				</section>
+			{:catch}
+				<section class="logged-on">
+					Błąd logowania!
+					Sprawdź czy wprowadziłeś poprawne dane
 				</section>
 			{/await}
 		{/if}
